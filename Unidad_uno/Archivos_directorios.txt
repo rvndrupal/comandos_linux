@@ -13,3 +13,25 @@ data??? -->Todos los que empiezan con data seguido de tres caracteres
 [abc]*  --> Todos los archivos que empiezan con a , b, c 
 bakup.[0-9][0-9][0-9] --> bakup. tres numeros
 
+mkdir  --> crear directorios
+
+mkdir dir1 dir2
+
+
+cp --> Copia los archivos.
+
+cp item1 item2  --> copia item1 a item2
+
+cp -a  car1  car2  --> copia todos los archivos o directorios.
+cp -r  car1  car2  --> lo  mismo
+cp -u  --> copia con un update solo lo que no este.
+cp -v  --> muestra mensaje informativos cuando termina
+cp -i  arch1  arch2  -->copia pero pregunta si lo sobrescrive
+
+cp arc1 arch2 direc1  --> copia archivo 1 2 al directorio
+
+cp dir1/*  direc2  --> copia todos los archivos al direc2
+
+pag.24
+
+
