@@ -1,0 +1,4 @@
+1.-date -->fecha
+2.-cal  -->Calendario.
+3.-df  --> Espacio disponible en las unidades de disco duro.
+4.-free  -->  Memoria disponible del sistema.
