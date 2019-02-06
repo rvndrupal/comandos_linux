@@ -32,6 +32,8 @@ cp arc1 arch2 direc1  --> copia archivo 1 2 al directorio
 
 cp dir1/*  direc2  --> copia todos los archivos al direc2
 
+cp -u *.html  web1  --> copia y actualiza todos los archivos html
+
 pag.24
 
 
