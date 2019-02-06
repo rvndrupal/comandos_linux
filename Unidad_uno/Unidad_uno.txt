@@ -2,3 +2,29 @@
 2.-cal  -->Calendario.
 3.-df  --> Espacio disponible en las unidades de disco duro.
 4.-free  -->  Memoria disponible del sistema.
+5.-exit  --> finaliza sesión terminal
+6.-pwd  -->Muestra donde estamos
+7.-cd  --> cambia de directorio
+cd -   --> Cambia de directorio de trabajo anterior.
+8.-ls  --> muestra información
+ls /usr  --> muestra directorio usr
+ls -l  --> salida de formato largo muestra los permisos.
+ls -lt  --> lo mismo pero ordenado.
+ls -lt -r   --> lo mismo pero invierte el orden de la lista.
+ls -a  -->lista todos los archivos incluso los que empiezan con punto.
+ls -d  -->todo mas el mismo directorio
+ls -F  -->los calsifica.
+ls -h -->human-readable  -->tamaño de los archivos formato comprensible
+ls -s  -->Ordena los resultados por tamaño.
+ls -t   -->Ordena por hora de Modificación
+
+9.-file  -->Muestra el tipo de Archivo.
+file picture.jpg
+
+
+10.-less  -->Muestra el contenido de un archivo.
+less archivos
+q--> para salir 
+G -->Se mueve al final del archivo.
+
+
