@@ -1,5 +1,6 @@
 1.-date -->fecha
 2.-cal  -->Calendario.
+cal 5 2019
 3.-df  --> Espacio disponible en las unidades de disco duro.
 4.-free  -->  Memoria disponible del sistema.
 5.-exit  --> finaliza sesión terminal

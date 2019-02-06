@@ -17,6 +17,8 @@ mkdir  --> crear directorios
 
 mkdir dir1 dir2
 
+cat > demo.txt   --> crea un archivo simple  para terminar ctrl+z
+
 
 cp --> Copia los archivos.
 
