@@ -1,0 +1,15 @@
+Comodines.
+* --> Cualquier caracter
+? --> Cualquier individual.
+[:alnum]  -->cualquier caracter alfanumerico.
+[:alpha]  -->Cualqier alfabetico.
+[:digit]  -->" numerico 
+[:lowe]  -->Letra mayuscula 
+[:upper] -->Minuscula
+
+g* --> todos los que empiezan con g 
+b*.txt  -->empieza con g y termina extensión txt 
+data??? -->Todos los que empiezan con data seguido de tres caracteres
+[abc]*  --> Todos los archivos que empiezan con a , b, c 
+bakup.[0-9][0-9][0-9] --> bakup. tres numeros
+
