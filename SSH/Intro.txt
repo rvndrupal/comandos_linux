@@ -1,0 +1,19 @@
+Arquitectura de ssh.
+
+1.-Instalar ssh
+
+sudo apt-get show  openssh-client
+
+sudo apt-get show openss-server
+
+Instala los dos.
+
+sudo apt-get show ssh
+
+sudo apt-get install ssh  --> ok 
+
+conocer la  dirección 
+
+ip a  --> conocer la direccion ip
+
+
