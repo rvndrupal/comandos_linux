@@ -1,0 +1,23 @@
+Comandos.
+
+type -_> Indica como se interpreta un comando.
+
+which --> Muestra que programa  ejecutable sera ejecutado.
+
+help --> Ofrece ayuda para funciones del shell.
+
+man --> Muestra manual del comando.
+
+muy importante -->   cp --help
+
+apropos --> Muestra una lista de comandos Apropiados.
+
+info  --> Muestra informacion del comando.
+
+whatis --> Descripcio  muy breve del comando.
+
+alias  --> Crea alias para un comando.
+
+pag-39
+
+

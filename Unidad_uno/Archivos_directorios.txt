@@ -36,6 +36,10 @@ cp dir1/*  direc2  --> copia todos los archivos al direc2
 
 cp -u *.html  web1  --> copia y actualiza todos los archivos html
 
+cp /etc/passw .  -->  con el punto le decimos que lo copia en donde estamos
+parados.
+##########################3
+
 mv --> Mover un archivo
 
 mv arch1 a2 a3
