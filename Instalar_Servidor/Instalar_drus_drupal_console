@@ -1,0 +1,48 @@
+Video: https://www.youtube.com/watch?v=QCs_5dxKdYY
+https://medium.com/drupal-y-yo/composer-y-drush-en-el-contexto-de-drupal-9883d2cfb007
+Pagina Oficial  
+https://docs.drush.org/en/8.x/install-alternative/
+1.-instalar composer
+
+a-->  sudo apt update
+
+b--> sudo apt install curl php-cli php-mbstring git unzip   //instala todo eso
+
+c--Make sure you're in your home directory, then retrieve the installer using curl:
+
+    Ojo estando en Descargas
+    cd Descargas
+    curl -sS https://getcomposer.org/installer | php
+
+d--> sudo mv composer.phar /usr/local/bin/composer 
+
+
+
+#####################################33
+Ahora instalamos drush
+
+estando en raiz
+
+composer show drush/drush  --> nos muestra todas las versiones
+
+composer global require drush/drush
+
+se instala en vendor/drush/drush
+
+dentro del vendor/drush/drush  --> importante
+
+se le da permisos  chmod u+x drush
+
+comprobamos echo &? --> si manda 0 es que esta bien 
+
+Hacemos el enlace simbolico
+
+sudo ln -s /home/rodrigo/vendor/drush/drush  /usr/bin/drush
+
+
+
+
+
+
+
+
