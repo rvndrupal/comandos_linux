@@ -36,6 +36,26 @@ cp dir1/*  direc2  --> copia todos los archivos al direc2
 
 cp -u *.html  web1  --> copia y actualiza todos los archivos html
 
-pag.24
+mv --> Mover un archivo
+
+mv arch1 a2 a3
+
+mv item  directorio  con esto se renombra  el archivo.
+
+Comparte muchos argumentos como copiar
+
+mv -i a1 a2  --> pregunta antes de Sobrescribir
+
+################
+rm  --> Borrar archivos o directorios.
+
+rm elemento
+
+rm -i ar1  --> Pide confirmación.
+rm -r  ar1  --> borra carpetas con archivos.
+rm -f arc1  --> Forza el borrado.
+rm -v  ar1  --> Muestra mensaje al borrar un archivo.
+
+rm -i *.html  -->Pide confirmacion de borrar todos los html
 
 
