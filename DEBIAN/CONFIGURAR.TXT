@@ -1,0 +1,6 @@
+Configurar el entorno de CD.
+
+nano /etc/apt/
+
+Se comando la opción de la carga de los cd.
+
