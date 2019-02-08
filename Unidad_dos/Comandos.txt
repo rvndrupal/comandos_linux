@@ -18,6 +18,11 @@ whatis --> Descripcio  muy breve del comando.
 
 alias  --> Crea alias para un comando.
 
-pag-39
+##################3333
+Separar comando con ;
+
+cd /usr; ls -l;
+
+
 
 

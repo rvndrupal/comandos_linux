@@ -1,0 +1,17 @@
+##################
+
+Crear nuestros porpios comandos Alias.
+
+alias rod1='cd /usr; ls -l; cd bin;'
+
+##############################3
+Para Eliminarlo.
+
+unalias;
+
+unalias rod1;
+
+##############################
+Mis alias.
+
+alias listar='ls -l'
