@@ -1,0 +1,21 @@
+Manda la salida de algo a la ruta que le digamos.
+
+ls -l /usr/bin >> ls-output.txt   -->Lo mandmos.
+
+Examinamos.
+
+ls -l ls-output.txt
+
+######################3333
+Comando cat 
+
+cat > arch1.txt --> se crea el archivo
+para finalizar aprietas ctrl+d
+
+cat [file]
+
+cat ls-output
+
+Unirnos dos arhivos con cat
+
+cat  arh1.txt >  arh2.txt
