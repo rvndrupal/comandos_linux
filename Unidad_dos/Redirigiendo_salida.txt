@@ -25,3 +25,4 @@ cat  arh1.txt >  arh2.txt
 Mostrar la salida de un archivo.
 
 ls -l /usr/bin | less  --> salida estandar de una archivo.
+
