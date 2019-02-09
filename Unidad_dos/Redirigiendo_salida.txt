@@ -19,3 +19,9 @@ cat ls-output
 Unirnos dos arhivos con cat
 
 cat  arh1.txt >  arh2.txt
+
+#############################33
+
+Mostrar la salida de un archivo.
+
+ls -l /usr/bin | less  --> salida estandar de una archivo.
