@@ -1,0 +1,9 @@
+La manera de utilizar los filtros.
+
+ls /bin /urs/bin | sort | less  --> muestra los bin en una lista ordenada.
+
+ls /bin /urs/bin | sort | less | uniq  --> Lo mismo pero que no este repetidas.
+
+
+###########################
+

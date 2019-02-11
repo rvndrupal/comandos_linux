@@ -1,0 +1,43 @@
+Contador de Palabaras.
+
+wc--> Muestra el numero de lineasa.
+
+wc muestra.txt 
+
+grep --> Imprime las lineas que coincidan con un Patron.
+
+Digamos que queremos encontrar todos los archivos en nuestra lista de programas que tengan la
+palabra “zip” incluida en el nombre. Una búsqueda así debería darnos una idea que algunos de los
+programas en nuestro sistema que tienen algo que ver con la compresión de archivos. Haríamos
+ésto:
+[me@linuxbox ~]$ ls /bin /usr/bin | sort | uniq | grep zip
+
+echo --> Muestra linea de texto 
+
+echo D*
+podríamos llevar a cabo las siguientes expansiones:
+[me@linuxbox ~]$ echo D*
+Desktop Documents
+y:
+[me@linuxbox ~]$ echo *s
+Documents Pictures Templates Videos
+o también:
+[me@linuxbox ~]$ echo [[:upper:]]*
+Desktop Documents Music Pictures Public Templates Videos
+
+####################
+Mostrar archivos ocultos.
+
+El comando ls con la opción -A (“almost all” o “casi todo”) proporcionará un listado
+correcto de los archivos ocultos:
+ls -A
+
+###############
+Expansión Aritmetica.
+Expansión aritmética
+El shell permite realizar aritmética mediante la expansión. Ésto nos permite usar el prompt del shell
+como una calculadora:
+[me@linuxbox ~]$ echo $((2 + 2))
+4
+La expansión aritmética usa la forma:
+$((expresión))
